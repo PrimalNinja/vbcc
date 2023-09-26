@@ -1,0 +1,19 @@
+
+PARSER STATS:
+
+line in count     4573
+line out count    3685
+error count       0
+module count      5
+object count      9
+function count    198
+subroutine count  41
+variable count    555
+constant count    89
+UDT count         0
+condition count   181
+directive count   0
+expression count  1733
+for loop count    1
+select case count 22
+while loop count  28

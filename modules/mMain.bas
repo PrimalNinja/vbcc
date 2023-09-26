@@ -20,7 +20,7 @@ Public Sub Main()
   blnParse = True
   
   strProjectName = "BC"
-  strProjectPath = "D:\dev\projects\vb6comp\pBC5.vbp"
+  strProjectPath = "Z:\vbcc\pBC5.vbp"
   'strFiles = "F:\_julian\iria\dev\Projects.2007\Vb6comp\classes\cCompiler.clsF:\_julian\iria\dev\Projects.2007\Vb6comp\classes\cElement.clsF:\_julian\iria\dev\Projects.2007\Vb6comp\classes\cFastString.clsF:\_julian\iria\dev\Projects.2007\Vb6comp\classes\cFile.clsF:\_julian\iria\dev\Projects.2007\Vb6comp\classes\cParser.clsF:\_julian\iria\dev\Projects.2007\Vb6comp\modules\mMain.basF:\_julian\iria\dev\Projects.2007\Vb6comp\modules\mFilesystem.basF:\_julian\iria\dev\Projects.2007\Vb6comp\classes\cNode.clsF:\_julian\iria\dev\Projects.2007\Vb6comp\classes\cList.clsF:\_julian\iria\dev\Projects.2007\Vb6comp\classes\cCollection.clsF:\_julian\iria\dev\Projects.2007\Vb6comp\modules\mFastString.basF:\_julian\iria\dev\Projects.2007\Vb6comp\modules\mConstants.basF:\_julian\iria\dev\Projects.2007\Vb6comp\modules\mXML.bas"
   
   If blnParse Then
