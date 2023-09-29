@@ -1,0 +1,18 @@
+
+COMPILER STATS:
+
+line in count     3686
+line out count    4382
+error count       0
+module count      5
+object count      9
+function count    198
+subroutine count  51
+variable count    555
+constant count    89
+UDT count         0
+condition count   181
+expression count  1744
+for loop count    1
+select case count 22
+while loop count  28
