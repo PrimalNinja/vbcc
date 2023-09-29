@@ -1,6 +1,10 @@
 VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
+  Persistable = 0  'NotPersistable
+  DataBindingBehavior = 0  'vbNone
+  DataSourceBehavior  = 0  'vbNone
+  MTSTransactionMode  = 0  'NotAnMTSObject
 END
 Attribute VB_Name = "cParser"
 Attribute VB_GlobalNameSpace = False
@@ -2130,6 +2134,7 @@ Public Sub ElementsSave()
         strOutput = strOutput & "<identifier>" & XMLEnc(objElement.Identifier) & "</identifier>"
         strOutput = strOutput & "<scope>" & XMLEnc(objElement.Scope & "") & "</scope>"
         strOutput = strOutput & "<type>" & XMLEnc(objElement.ElementType & "") & "</type>"
+        strOutput = strOutput & "<parameters>" & XMLEnc(objElement.Parameters & "") & "</parameters>"
         strOutput = strOutput & "<datatype>" & XMLEnc(objElement.DataType & "") & "</datatype>"
         strOutput = strOutput & "</element>"
         objFile.fWrite strOutput & vbCrLf

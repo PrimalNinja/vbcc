@@ -16,3 +16,21 @@ expression count  1733
 for loop count    1
 select case count 22
 while loop count  28
+
+COMPILER STATS:
+
+line in count     7371
+line out count    7343
+error count       0
+module count      10
+object count      18
+function count    396
+subroutine count  82
+variable count    1110
+constant count    178
+UDT count         0
+condition count   362
+expression count  3467
+for loop count    2
+select case count 44
+while loop count  56
